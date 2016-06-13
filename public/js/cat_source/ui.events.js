@@ -802,7 +802,6 @@ $.extend(UI, {
             }
 
 			if ((e.which == 8) || (e.which == 46)) { // backspace e canc(mac)
-				console.log("DELETE");
 				if ($('.selected', $(this)).length) {
 					e.preventDefault();
 					$('.selected', $(this)).remove();
